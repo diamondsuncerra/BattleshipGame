@@ -1,13 +1,42 @@
-# BattleshipGame
-  This is a 2-player game made in Java, implementing the classic Battleship game. It gets the continuous input 
-of the players alternating between them and establishes a winner. In the near future, a graphical interface using Swing.
+# Battleship Game
 
-  Battleship can be played after downloading the Main file and running it.
+The Battleship Game is a Java console-based two-player strategy game. Each player places their ships on a grid and then takes turns firing at their opponent's grid to sink their ships. The first player to sink all the opponent's ships wins.
 
-  The games starts with getting the input from the players. The current player has to type in the coordinates that
-represent where they wish to place their battleships. The coordinates are coded A-J 1-10. After a player is done, they 
-press enter and it's the next player's turn. Once both parties have entered their choices, the attack starts.
-  The players alternately type in one coordinate following the instruction  A-J 1-10. For all possible outcomes (hit a
-  ship, miss, sink a ship, sink the last ship therefore winning the game or input non-conformity) the player is prompted
-accordingly. 
+## How to Play
+
+1. Compile and run the `Main.java` file using a Java compiler (e.g., `javac Main.java` and `java Main`).
+2. Players take turns entering coordinates to fire shots at their opponent's grid.
+3. The game provides feedback on hits and misses, and displays the current state of both players' grids.
+4. The game ends when one player sinks all the opponent's ships.
+
+## Features
+
+- Two-player interactive gameplay.
+- Players can place their ships on the grid.
+- Players take turns firing shots at their opponent's grid.
+- Visual display of the game board with ships and shots.
+- Detects when a player has sunk all opponent's ships and declares the winner.
+
+## How to Place Ships
+
+1. Players take turns placing their ships on their grid.
+2. Players input the coordinates for the start and end of the ship (e.g., A1 A5 or B5 E5).
+3. The game validates the coordinates and adds the ship to the grid if valid.
+4. Different ship types have different lengths: Aircraft Carrier (5 cells), Battleship (4 cells), Cruiser (3 cells), Submarine (3 cells), and Destroyer (2 cells).
+
+## Technologies Used
+
+- Java for the core game logic.
+- Command-line interface for input and display.
+
+## Notes
+
+- This is a simplified version of the traditional Battleship game.
+- Ships are placed manually by players, and coordinates are entered manually for each shot.
+
+## Future Improvements
+
+- Enhance user interface with graphical elements.
+- Add more game variations and customizations.
+
 
